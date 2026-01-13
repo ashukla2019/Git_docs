@@ -1,0 +1,4 @@
+Handle unstaged changes when pulling with rebase:
+git stash                    # Save your changes temporarily
+git pull -r                  # Pull with rebase
+git stash pop                # Reapply your changes
